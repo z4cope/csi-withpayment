@@ -1,0 +1,63 @@
+
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px 10px;
+}
+
+hr {
+  background-color: #F8931D;
+  height: 15px;
+}
+
+/* General form style */
+
+#pay-form {
+
+}
+
+/* Child form container */
+
+.child-payment-container {
+  padding: 7%;
+}
+
+/* Faq Style */
+
+.faq-payment {
+  border-right: 10px #000 solid;
+  text-align: right;
+}
+
+.faq-payment h3 {
+  font-weight: bold;
+}
+
+.faq-payment p {
+  margin: 20px 10px;
+}
+
+/* Payment Style */
+
+.payment-form {
+  text-align: right !important;
+  padding-left: 20%;
+}
+
+.form-control {
+  text-align: right;
+}
+
+i {
+  color: black;
+  font-size: 2rem;
+}

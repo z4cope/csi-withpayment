@@ -1,0 +1,167 @@
+ /* font-family: 'Cairo', sans-serif;
+font-family: 'Lalezar', cursive; */
+
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+}
+
+hr {
+  background-color: #F8931D;
+  height: 15px;
+  margin-left: 30%;
+}
+
+p {
+  color: #dddddd;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* General Title Style */
+#title {
+  border-right: 50px solid #F8931D;
+  background-image: url(../images/banner.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+  color: #fff;
+  text-align: right;
+}
+
+/* Fluid Container Style */
+
+.container-fluid {
+  padding: 5% 10%;
+}
+
+/* Navbar style */
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+/* Inner Title Container Style*/
+
+.title-container {
+  margin: 5% 0;
+}
+
+.title-container p {
+  font-size: 2rem;
+  letter-spacing: 2;
+}
+
+.title-container .btn {
+  padding: 8px 40px;
+}
+
+.big-title {
+  font-size: 7rem;
+  font-family: 'Lalezar', cursive;
+}
+
+/* About Style */
+#about {
+  border-left: 50px solid #F8931D;
+  text-align: right;
+}
+
+.about-img-wrapper {
+  text-align: left;
+}
+
+.about-img {
+  width: 70%;
+}
+
+.about-title {
+  margin-top: 10%;
+}
+
+.about-title h2 {
+  font-family: 'Lalezar', cursive;
+  font-size: 3rem;
+}
+
+.about-title p {
+  color: #888888;
+}
+
+
+/* Mission Style */
+
+#mission {
+  background-color: #1F2C30;
+  text-align: center;
+
+  position: static;
+}
+
+.mission-container {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.mission-container i {
+  font-size: 3rem;
+  color: #F8931D;
+}
+
+.mission-container h3 {
+  color: #fff;
+  margin: 1rem auto;
+  font-family: 'Lalezar', cursive;
+  font-size: 2rem;
+}
+
+.mission-container p {
+  color: #fff;
+  margin: 1rem auto;
+  width: 50%;
+}
+
+/* Contact */
+#contact {
+  background-image: url(../images/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+  border-bottom: 50px solid #F8931D;
+  color: white;
+}
+
+.follow-us {
+  border-right: 3px #fff solid;
+}
+
+.follow-us div {
+  padding-top: 15%;
+}
+
+.follow-us i {
+  padding: 10px 10px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
